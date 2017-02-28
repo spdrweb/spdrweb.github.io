@@ -8,7 +8,9 @@ $( document ).ready(function(){
         startingTop: '0%', // Starting top style attribute
         endingTop: '4%', // Ending top style attribute
     });
-    $(".button-collapse").sideNav();
+    $(".button-collapse").sideNav({
+        closeOnClick: true,
+    });
     $('.parallax').parallax();
     $('.carousel').carousel();
     $('.scrollspy').scrollSpy({
@@ -27,6 +29,6 @@ $( document ).ready(function(){
     if ($(window).innerWidth() <= 1024) {
         $(".showcase-item").removeClass('horizontal');
     } else{
-        $(".showcase-item").idClass('horizontal');
+        $(".showcase-item").addClass('horizontal');
     }
  });
