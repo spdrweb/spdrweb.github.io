@@ -1,12 +1,12 @@
 
 $( document ).ready(function(){
     $('.modal').modal({
-        dismissible: true, // Modal can be dismissed by clicking outside of the modal
-        opacity: 0.8, // Opacity of modal background
-        inDuration: 300, // Transition in duration
-        outDuration: 200, // Transition out duration
-        startingTop: '0%', // Starting top style attribute
-        endingTop: '4%', // Ending top style attribute
+        dismissible: true, 
+        opacity: 0.8, 
+        inDuration: 300, 
+        outDuration: 200, 
+        startingTop: '0%', 
+        endingTop: '4%',
     });
     $(".button-collapse").sideNav({
         closeOnClick: true,
