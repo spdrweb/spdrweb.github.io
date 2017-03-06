@@ -16,6 +16,9 @@ $( document ).ready(function(){
     $('.scrollspy').scrollSpy({
         scrollOffset:50
     });
+    $("#side-nave-exit").on("click", function(){
+        $('.button-collapse').sideNav('hide');
+    });
 });
 
 
