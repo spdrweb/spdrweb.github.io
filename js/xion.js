@@ -26,9 +26,6 @@ $( document ).ready(function(){
     }else{
         $("#parallax-image").addClass('responsive-img');
     }
-    if ($(window).innerWidth() <= 1024) {
-        $(".showcase-item").removeClass('horizontal');
-    } else{
-        $(".showcase-item").addClass('horizontal');
-    }
  });
+
+ 

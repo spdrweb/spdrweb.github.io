@@ -60,6 +60,12 @@ h2 {
   margin: 1.78rem 0 1.424rem 0;
 }
 
+.p1{
+  font-size: 1.2rem;
+  line-height: 110%;
+  margin: 0.5rem 0 0.4rem 0;
+}
+
 .p2{
   font-size: 1.4rem;
   line-height: 110%;
@@ -109,6 +115,17 @@ h2 {
     box-shadow: 0px 0px 0px black;  
     transition: background-color 0.3s ease-in 0.3s;
 }
+.margin-0{
+    margin: 0px !important;
+}
+
+.padding-10{
+    padding: 10px !important;
+}
+
+.padding-20{
+    padding: 20px !important;
+}
 
 #banner-logo{
     min-width: 200px;
@@ -124,7 +141,6 @@ h2 {
     max-width: 180px !important;
     max-height: 180px !important;
 }
-
 
 .showcase-image{
     padding: 10px 10px 10px 10px;
